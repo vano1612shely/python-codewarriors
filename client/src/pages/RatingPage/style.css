@@ -1,0 +1,28 @@
+.rating_block {
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+}
+
+.rating_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rating_list_item {
+  padding: 15px;
+  background: #fff;
+  border-radius: 20px;
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+  justify-content: space-between;
+}
+
+.rating_block_title {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #fff;
+}

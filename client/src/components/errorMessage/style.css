@@ -1,0 +1,64 @@
+.error-block {
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
+  min-width: 250px;
+  min-height: 50px;
+  max-width: 500px;
+  padding: 15px 20px;
+  border-radius: 7px;
+  animation: 1s cubic-bezier(0, 1.23, 0.99, 0.99) error-animation;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  z-index: 100;
+}
+.error-text {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+  padding-left: 20px;
+}
+.err {
+  border: 1px solid #79282c;
+  background: #280d0f;
+}
+.not {
+  border: 1px solid #0f5132;
+  background: #051b11;
+}
+.err-txt {
+  color: #dc8b91;
+}
+.err-txt::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: url("../../img/error-alert.svg") no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+.not-txt {
+  color: #75b798;
+}
+.not-txt::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: url("../../img/success.svg") no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+@keyframes error-animation {
+  0% {
+    right: -280px;
+  }
+  100% {
+    right: 30px;
+  }
+}

@@ -1,0 +1,17 @@
+.add_new_task_button {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  background: #136dbb;
+  color: #fff;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.add_new_task_button:hover,
+.add_new_task_button:focus {
+  background: #a8245a;
+}

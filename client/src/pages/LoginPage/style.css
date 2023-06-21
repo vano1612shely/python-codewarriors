@@ -1,0 +1,114 @@
+.login_background {
+  background: #fff !important;
+}
+.auth_wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.auth_form {
+  width: 600px;
+  height: 700px;
+  background: url("../../img/background.png") no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 30px;
+  margin: auto;
+  position: relative;
+  padding-top: 80px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth_form_logo_link {
+  width: 80px;
+  height: 80px;
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  z-index: 2;
+}
+.auth_form_logo path {
+  transition: 0.5s;
+}
+.auth_form_logo:hover path {
+  fill: #a8245a;
+}
+.auth_form_row {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.auth_form_label {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.auth_form_input {
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  background: none;
+  width: 100%;
+  color: #ffffff;
+  font-size: 20px;
+  outline: none;
+  transition: 0.5s;
+}
+
+.auth_form_row:focus-within .auth_form_label {
+  color: #136dbb;
+}
+.auth_form_row:hover .auth_form_label {
+  color: #136dbb;
+}
+
+.auth_form_input:focus,
+.auth_form_input:hover {
+  color: #136dbb;
+  border-color: #136dbb;
+}
+
+.auth_form_button {
+  width: 300px;
+  padding: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0px;
+  color: #ffffff;
+  background: #136dbb;
+  border-radius: 100px;
+  border: none;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+
+.auth_form_button:hover,
+.auth_form_button:focus {
+  background: #a8245a;
+}
+
+.auth_form_link {
+  text-align: right;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: 100px;
+  transition: 0.5s;
+}
+
+.auth_form_link:hover,
+.auth_form_link:focus {
+  color: #136dbb;
+}

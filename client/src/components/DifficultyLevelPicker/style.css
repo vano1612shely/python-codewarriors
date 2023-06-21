@@ -1,0 +1,30 @@
+.difficulty_level_picker {
+  display: flex;
+  gap: 10px;
+  height: 50px;
+}
+
+.difficulty_level_picker_button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.difficulty_level_picker_button_img {
+  transition: 0.2s;
+}
+.difficulty_level_picker_button_hover:hover
+  .difficulty_level_picker_button_img {
+  transform: scale(1.2);
+}
+.difficulty_level_picker_button_img path {
+  transition: 0.2s;
+}
+.difficulty_level_picker_button .difficulty_level_picker_button_img path {
+  fill: #8e8e93;
+}
+
+.difficulty_level_picker_button__clicked
+  .difficulty_level_picker_button_img
+  path {
+  fill: #ffb300;
+}

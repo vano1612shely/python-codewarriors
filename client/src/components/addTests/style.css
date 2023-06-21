@@ -1,0 +1,68 @@
+.tests_block {
+  width: 500px;
+  height: 500px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  position: relative;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tests_block_wrapper {
+  flex-grow: 1;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.tests_block_title {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.add_test_btn {
+  width: 40px;
+  height: 40px;
+  background: #136dbb;
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  transition: 0.5s;
+  position: absolute;
+  bottom: 5px;
+  border-radius: 10px;
+}
+
+.add_test_btn:hover,
+.add_test_btn:focus {
+  background: #a8245a;
+}
+
+.add_test_form {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.add_test_form_input {
+  border-radius: 5px;
+  padding: 5px;
+  border: #000 1px solid;
+}
+
+.add_test_form_button {
+  background: #136dbb;
+  padding: 5px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.add_test_form_button:hover,
+.add_test_form_button:focus {
+  background: #a8245a;
+}

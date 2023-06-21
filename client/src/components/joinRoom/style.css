@@ -1,0 +1,87 @@
+.join_room_block {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  background: #fff;
+  padding: 25px;
+  font-family: "Consolas";
+}
+
+.join_room_block_title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.join_room_list {
+  list-style: none;
+  padding: 10px;
+  height: 90%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.join_room_item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 10px;
+  background: #136dbb;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #fff;
+  font-size: 24px;
+}
+
+.join_room_item_button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #a8245a;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.join_room_item_button:hover,
+.join_room_item_button:focus {
+  color: #fff;
+}
+
+.join_room_form {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.join_room_form_input {
+  width: 80%;
+  padding: 10px;
+  font-size: 20px;
+  background: none;
+  border: 2px solid #136dbb;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.join_room_form_button {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  background: #136dbb;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.join_room_form_button:hover,
+.join_room_form_button:focus {
+  background: #a8245a;
+}

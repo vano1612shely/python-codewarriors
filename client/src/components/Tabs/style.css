@@ -1,0 +1,35 @@
+.tabs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 2px solid #fff;
+}
+
+.tabs-header {
+  display: flex;
+  gap: 5px;
+}
+
+.tab {
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: lightgray;
+  border: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: "Consolas";
+  text-transform: capitalize;
+}
+
+.tab:hover {
+  background-color: lightblue;
+}
+
+.tab.active {
+  background-color: white;
+}
+
+.tabs-content {
+  padding: 10px;
+  border: 1px solid gray;
+}

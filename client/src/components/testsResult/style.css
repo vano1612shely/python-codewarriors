@@ -1,0 +1,24 @@
+.tests_result_block {
+  width: 100%;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px;
+  min-height: 200px;
+  padding-left: 30px;
+}
+
+.tests_result_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tests_result_list_item {
+  color: #a8245a;
+  font-size: 18px;
+}
+
+.tests_result_list_item_correct {
+  color: #098707;
+}
